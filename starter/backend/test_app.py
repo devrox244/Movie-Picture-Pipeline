@@ -2,6 +2,7 @@ from . import app
 import os
 
 
+# test comment
 def test_movies_endpoint_returns_200():
     with app.test_client() as client:
         status_code = os.getenv("FAIL_TEST", 200)
